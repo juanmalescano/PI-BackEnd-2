@@ -17,6 +17,10 @@ spring:
           uri: lb://MOVIES-SERVICE
           predicates:
             - Path=/movies/**
+        - id: facturacion-service
+          uri: lb://FACTURACION-SERVICE
+          predicates:
+            - Path=/bills/**
     security:
       oauth2:
         client:
