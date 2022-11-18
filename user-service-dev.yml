@@ -4,6 +4,9 @@ server:
 spring:
   application:
     name: user-service
+  discovery:
+    enabled: true
+    service-id: config-service
   eureka:
     client:
       enabled: true
