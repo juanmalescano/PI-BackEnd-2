@@ -1,24 +1,44 @@
-server:
-  port: 8080
-  
 spring:
+  application:
+    name: gateway-service
   cloud:
     gateway:
+      default-filters:
+        - TokenRelay
+      discovery:
+        locator:
+          enabled: true
       routes:
-        - id: movieRoute #Identificando la ruta del service de producto
-          uri: http://localhost:8086/ #URL donde se hará el redirect segun el predicate definido
-          predicates: #Reglas de análisis de una request
-            - Path=/movies/**  
-        - id: userRoute
-          uri:  http://localhost:8087/
+        - id: users-service
+          uri: lb://USERS-SERVICE
           predicates:
-            - Path=/user/**
-
+            - Path=/api/users/**
+        - id: movies-service
+          uri: lb://MOVIES-SERVICE
+          predicates:
+            - Path=/api/movies/**
+    security:
+      oauth2:
+        client:
+          provider:
+            api-gateway:
+              issuer-uri: http://localhost:8082/realms/digitalmedia
+          registration:
+            keycloak-spring-gateway-client:
+              provider: keycloak
+              client-id: api-gateway
+              client-secret: CCcioWBeiNnyhCBKyfsmarh7JvPo0Cvf
+              authorization-grant-type: authorization_code
+              redirect-uri: http://localhost:8080
 eureka:
   client:
     service-url:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://localhost:8761/eureka/
+    enabled: true
 
+server:
+  port: 8080
+  
 info:
   app:
     name: ${spring.application.name}
