@@ -1,32 +1,28 @@
-eureka:
-  client:
-    enabled: false
-
 server:
   port: 8086
 
-springdoc:
-  show-actuator: true
-  swagger-ui:
-    groups-order: DESC
-    disable-swagger-default-url: true
-management:
-  endpoints:
-    web:
-      exposure.include: beans, env, health, info, metrics, mappings
-  endpoint:
-    health:
-      show-details: always
-
-app:
-  cors:
-    allowed-origins: http://localhost:3000
-
 spring:
-  application:
-    name: users-service
+  eureka:
+    client:
+      service-url:
+        defaultZone: http://localhost:8761/eureka
   data:
     mongodb:
-      uri: mongodb://localhost:27017/moviesdb
-  main:
-    allow-circular-references: true
+      uri: mongodb://localhost:27017/usersdb
+      username: admin
+      password: admin
+      database: tp_final_be2
+      port: 27017
+      host: mongodb #localhost
+  security:
+    oauth2:
+      client:
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8082/realms/digitalmedia
+        registration:
+          keycloak:
+            client-id: microservicios
+            client-secret: 4AOyKGcMfRmXqdHctmcQnXQNQfKQiAqF
+            scope: openid
+            redirect_uri: http://localhost:8080/*
