@@ -2,8 +2,11 @@ server:
   port: 8086
 
 spring:
+  application:
+    name: user-service
   eureka:
     client:
+      enabled: true
       service-url:
         defaultZone: http://localhost:8761/eureka
   data:
