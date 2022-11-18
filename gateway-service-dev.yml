@@ -12,11 +12,11 @@ spring:
         - id: users-service
           uri: lb://USERS-SERVICE
           predicates:
-            - Path=/api/users/**
+            - Path=/users/**
         - id: movies-service
           uri: lb://MOVIES-SERVICE
           predicates:
-            - Path=/api/movies/**
+            - Path=/movies/**
     security:
       oauth2:
         client:
