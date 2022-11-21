@@ -1,0 +1,16 @@
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\mapper\MovieMapper.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\exception\MovieNotFoundException.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\security\KeyCloakJwtAuthenticationConverter.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\service\MovieService.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\config\ErrorAttributesConfig.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\MoviesApiApplication.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\model\Movie.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\model\dto\CreateMovieRequest.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\config\SwaggerConfig.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\service\MovieServiceImpl.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\model\dto\MovieDto.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\model\dto\UpdateMovieRequest.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\repository\MovieRepository.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\security\OAuth2ResourceServerSecurityConfiguration.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\model\dto\AddCommentRequest.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\movies-api\src\main\java\com\digitalmedia\movies\controller\MoviesController.java

@@ -1,0 +1,48 @@
+spring:
+  application:
+    name: gateway-service
+  eureka:
+    client:
+      enabled: true
+      service-url:
+        defaultZone: ${EUREKA_URL:http://localhost:8761/eureka}
+  cloud:
+    gateway:
+      default-filters:
+        - TokenRelay
+      routes:
+        - id: user-service
+          uri: lb://USERS-SERVICE
+          predicates:
+            - Path=/users/**
+        - id: moviesRoute
+          uri: lb://MOVIES-SERVICE
+          predicates:
+            - Path=/movies/**
+        - id: billsRoute
+          uri: lb://FACTURACION-SERVICE
+          predicates:
+            - Path=/bills/**
+    security:
+      oauth2:
+        client:
+          registration:
+            api-gateway:
+              client-id: api-gateway
+              client-secret: CCcioWBeiNnyhCBKyfsmarh7JvPo0Cvf
+              authorization-grant-type: authorization_code
+              redirect-uri: http://localhost:8080/login/oauth2/code/keycloak
+          provider:
+            api-gateway:
+              issuer-uri: http://localhost:8082/realms/digitalmedia
+              jwkSetUri: http://localhost:8082/realms/digitalmedia/protocol/openid-connect/certs
+
+
+server:
+  port: 8080
+
+info:
+  app:
+    name: ${spring.application.name}
+    version: 1.0.0
+    description: API Gateway
