@@ -1,0 +1,45 @@
+Server:
+  port: 8087
+
+spring:
+  application:
+    name: user-service
+  eureka:
+    client:
+      enabled: true
+      service-url:
+        defaultZone: ${EUREKA_URL:http://localhost:8761/eureka}
+  data:
+    mongodb:
+      uri: mongodb://localhost:27017/usersdb
+      username: admin
+      password: admin
+      database: tp_pi
+      port: 27017
+      host: mongodb #localhost
+  security:
+    oauth2:
+      client:
+        provider:
+          keycloak:
+            issuer-uri: http://localhost:8082/realms/digitalmedia
+        registration:
+          keycloak:
+            client-id: microservicios
+            client-secret: 4AOyKGcMfRmXqdHctmcQnXQNQfKQiAqF
+            scope: openid
+            redirect_uri: http://localhost:8080/login/oauth2/code/keycloak
+            realm: digitalmedia
+            serverUrl: http://localhost:8082
+
+
+app:
+  cors:
+    allowed-origins: http://localhost:3000
+
+dh:
+  keycloakInternal:
+    realm: digitalmedia
+    serverUrl: http://localhost:8082
+    clientId: internal
+    clientSecret: 9TaurmGJG4CZ9f0NI8mThQhr96zHGKaG

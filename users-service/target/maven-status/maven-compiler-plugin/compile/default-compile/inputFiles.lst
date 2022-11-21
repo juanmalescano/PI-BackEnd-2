@@ -1,0 +1,17 @@
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\repository\IUserRepository.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\exceptions\UserExtraNotFoundException.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\model\dto\UserKeycloakDTO.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\service\UserServiceImpl.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\UsersServiceApplication.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\repository\IUserKeycloakRepository.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\controller\UserController.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\security\OAuth2ResourceServerSecurityConfiguration.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\model\User.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\repository\MongoUserRepository.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\repository\UserKeycloakRepository.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\service\IUserService.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\config\KeycloakConfiguration.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\model\dto\UserRequest.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\repository\IMongoUserRepository.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\model\UserKeycloak.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\users-service\src\main\java\com\digitalmedia\users\security\KeyCloakJwtAuthenticationConverter.java

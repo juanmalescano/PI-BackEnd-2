@@ -1,0 +1,15 @@
+com\msbills\feign\repository\SubscriptionRepository.class
+com\msbills\MsBillsApplication.class
+com\msbills\feign\FeignInterceptor.class
+com\msbills\models\Bill.class
+com\msbills\service\BillService.class
+com\msbills\feign\config\OAuthFeignConfig.class
+com\msbills\feign\modelDTO\UserDTO.class
+com\msbills\feign\service\SubscripcionService.class
+com\msbills\security\KeyCloakJwtAuthenticationConverter.class
+com\msbills\feign\OAuthClientCredentialsFeignManager.class
+com\msbills\feign\repository\FeignSubscriptionRepository.class
+com\msbills\security\OAuth2ResourceServerSecurityConfiguration.class
+com\msbills\feign\OAuthClientCredentialsFeignManager$1.class
+com\msbills\controller\BillController.class
+com\msbills\repositories\IBillRepository.class

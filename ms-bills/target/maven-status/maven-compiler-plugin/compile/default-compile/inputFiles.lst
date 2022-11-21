@@ -1,0 +1,14 @@
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\feign\repository\SubscriptionRepository.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\MsBillsApplication.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\feign\config\OAuthFeignConfig.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\security\OAuth2ResourceServerSecurityConfiguration.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\feign\FeignInterceptor.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\feign\OAuthClientCredentialsFeignManager.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\feign\service\SubscripcionService.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\controller\BillController.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\models\Bill.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\repositories\IBillRepository.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\service\BillService.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\security\KeyCloakJwtAuthenticationConverter.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\feign\modelDTO\UserDTO.java
+C:\Users\juanm\Google Drive\Carrera certified Tech Developer\Backend II\Proyecto Integrador\ms-bills\src\main\java\com\msbills\feign\repository\FeignSubscriptionRepository.java

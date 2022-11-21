@@ -1,0 +1,17 @@
+com\digitalmedia\users\repository\IUserKeycloakRepository.class
+com\digitalmedia\users\model\UserKeycloak.class
+com\digitalmedia\users\repository\IMongoUserRepository.class
+com\digitalmedia\users\exceptions\UserExtraNotFoundException.class
+com\digitalmedia\users\model\User.class
+com\digitalmedia\users\UsersServiceApplication.class
+com\digitalmedia\users\service\IUserService.class
+com\digitalmedia\users\controller\UserController.class
+com\digitalmedia\users\repository\IUserRepository.class
+com\digitalmedia\users\repository\UserKeycloakRepository.class
+com\digitalmedia\users\config\KeycloakConfiguration.class
+com\digitalmedia\users\model\dto\UserKeycloakDTO.class
+com\digitalmedia\users\model\dto\UserRequest.class
+com\digitalmedia\users\security\KeyCloakJwtAuthenticationConverter.class
+com\digitalmedia\users\service\UserServiceImpl.class
+com\digitalmedia\users\repository\MongoUserRepository.class
+com\digitalmedia\users\security\OAuth2ResourceServerSecurityConfiguration.class
